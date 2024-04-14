@@ -1,0 +1,17 @@
+{
+    "name": "travel-diary-backend",
+    "version": "1.0.0",
+    "description": "Backend API for Travel Diary Platform",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "sequelize": "^6.6.5",
+        "sqlite3": "^5.0.2"
+    }
+}
